@@ -1,0 +1,9 @@
+# 设置User服务的Actuator配置
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
